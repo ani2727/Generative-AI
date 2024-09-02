@@ -1,0 +1,11 @@
+prefix=/home/abc/Downloads/GenerativeAI/venv
+exec_prefix=/home/abc/Downloads/GenerativeAI/venv
+libdir=/home/abc/Downloads/GenerativeAI/venv/lib
+includedir=/home/abc/Downloads/GenerativeAI/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

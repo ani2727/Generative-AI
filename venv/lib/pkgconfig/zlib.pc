@@ -1,0 +1,13 @@
+prefix=/home/abc/Downloads/GenerativeAI/venv
+exec_prefix=/home/abc/Downloads/GenerativeAI/venv
+libdir=/home/abc/Downloads/GenerativeAI/venv/lib
+sharedlibdir=/home/abc/Downloads/GenerativeAI/venv/lib
+includedir=/home/abc/Downloads/GenerativeAI/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
