@@ -11,7 +11,7 @@ load_dotenv()
 ### langsmith tracking
 os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_PROJECT"] = "Q&A Chatbot with GROQ"
+os.environ["LANGCHAIN_PROJECT"] = "Q&A Chatbot with GROQw"
 
 ### Prompt Template
 prompt = ChatPromptTemplate.from_messages(
