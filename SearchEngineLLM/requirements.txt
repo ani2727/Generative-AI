@@ -20,4 +20,3 @@ langserve
 fastapi
 uvicorn
 duckduckgo-search
-sqlalchemy
