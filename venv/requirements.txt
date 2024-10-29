@@ -21,3 +21,10 @@ fastapi
 uvicorn
 duckduckgo-search
 sqlalchemy
+validators==0.28.1
+youtube_transcript_api
+unstructured
+pytube
+numexpr
+huggingface_hub
+gradio
